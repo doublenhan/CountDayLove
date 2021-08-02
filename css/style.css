@@ -1,0 +1,87 @@
+body {
+    width: 100%;
+	height: 100vh;
+	background: url(../img/love.jpg) no-repeat center;
+	background-size: cover;
+}
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+footer {
+    width: 100%;
+    text-align: center;
+    font-size: 11px;
+	clear: both;
+    position: relative;
+    margin-top: 10px;
+}
+#page-wrap footer,#page-wrap footer a{color: rgb(255, 255, 255)}
+#page-wrap-sad footer,#page-wrap-sad footer a{color: #4d2a31;opacity: 0.1;padding-top: 250px;}
+/*
+/* edit
+/*--------------------------------*/
+h1.cauhoi{
+	padding-top: 225px;
+	font-size: 21px;
+	color: #FFFFFF;
+	text-shadow: #FFF 0px 0px 2px, #FFF 0px 0px 7px, #FFF 0px 0px 12px, #a900ff 0px 0px 17px, #a900ff 0px 0px 7px, #a900ff 0px 0px 7px, #a900ff 0px 0px 7px, #a900ff 0px 0px 7px;
+}
+h2.cauhoi{
+	font-size: 35px;
+	color: #FFFFFF;
+	text-shadow: #FFF 0px 0px 2px, #FFF 0px 0px 7px, #FFF 0px 0px 12px, #ff0000 0px 0px 17px, #ff0000 0px 0px 7px, #ff0000 0px 0px 7px, #ff0000 0px 0px 7px, #ff0000 0px 0px 7px;
+}
+.traloi{
+	border: 1px #f7f7f7 solid;
+	font-size: 32px;
+	padding: 12px;
+	cursor: pointer;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	-moz-box-shadow: #FFF 0px 0px 5px;
+	-webkit-box-shadow: #FFF 0px 0px 5px;
+    box-shadow: #FFF 0px 0px 5px;
+    margin: 0 auto;
+    margin-top: 25px;
+
+}
+
+#yes{
+    background: #ff0097d1;
+    border: 1px #dcdcdc solid;
+    color: #fff;
+}
+/*
+/* page-wrap
+/*--------------------------------*/
+#page-wrap{
+	width: 100%;
+	height: 100%;
+	display: true;
+}
+.content{
+	width: 100%;
+	font-family: 'Mali', cursive;
+	font-size: 14px;
+	margin: auto;
+	text-align: center;
+	position: relative;
+}
+/*
+/* page-wrap-sad
+/*--------------------------------*/
+#page-wrap-sad .content{
+	position: relative;
+	width: 200px;
+	margin: 0 auto;
+}
+#page-wrap-sad .content h3{
+	color: #fff;
+	text-align: center;
+	padding-top: 320px;
+	font-family: Arial;
+	font-weight: bold;
+}
