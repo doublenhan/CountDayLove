@@ -45,12 +45,12 @@ header h1 {
 /* content
 /*--------------------------------*/
 #clock-box {
-    background: url(../images/headline_hearth.svg) center;
+    background: url(../icon/headline_hearth.svg) center;
     width: 89%;
     margin: 0 auto;
 }
 #clock {
-    background: url(../images/headline_simple.svg) bottom no-repeat;
+    background: url(../icon/headline_simple.svg) bottom no-repeat;
     text-align: center;
     border-radius: 9rem;
     height: 89px;
@@ -154,7 +154,7 @@ anni {
     text-align: center;
 }
 .hidebg {
-    background: url(../images/headline_simple.svg) center no-repeat;
+    background: url(../icon/headline_simple.svg) center no-repeat;
     width: 90%;
     margin: 0 auto;
     height: 2rem;
