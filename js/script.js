@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
       document.querySelector("anni").textContent = `${(yourDate.getDate() > 9) ? yourDate.getDate() : "0" + yourDate.getDate()}-${(yourDate.getMonth() > 8) ? (yourDate.getMonth() + 1) : "0" + (yourDate.getMonth() + 1)}-${yourDate.getFullYear()}`;
 
-      document.querySelector("date").textContent = Math.floor(Math.floor((new Date() - yourDate) / 1000) / 60 / 60 / 24) + " NGÀY";
+      document.querySelector("date").textContent = Math.floor(Math.floor((new Date() - yourDate) / 1000) / 60 / 60 / 24) + " DAY";
 
       function olock() {
             var today = new Date(),
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
       } olock();
       var timer = setInterval(function () { olock() }, 1000);
 
-      document.querySelector("audio").setAttribute("src", `music/${music[Math.floor(Math.random() * music.length)]}.mp3`);
+      document.querySelector("audio").setAttribute("src", `../music/${music[Math.floor(Math.random() * music.length)]}.mp3`);
 
       document.getElementsByTagName("body")[0].insertAdjacentHTML("beforend");
 
