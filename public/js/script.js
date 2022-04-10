@@ -1,5 +1,5 @@
 //ngày
-const yourDate = new Date("2018-12-09T08:00:00"),
+const yourDate = new Date("2018-09-12T00:00:00"),
       // Sửa tên bài hát cần thay đổi trong thư mục music, không dấu, không khoảng trắng
       music = ['emoi'];
 
